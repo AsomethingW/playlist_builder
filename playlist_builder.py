@@ -6,3 +6,9 @@ print(playlists[-3])
 
 for i in playlists:
     print(i)
+
+playlists.append("Doomsday")
+playlists.remove("Doomsday")
+playlists.insert(1, "All caps")
+
+(playlists[-1] == "Good Days")
